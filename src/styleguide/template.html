@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style Guide</title>
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet">
+</head>
+<body>
+  <div data-sticky-container>
+    <div class="pl-intro" data-sticky data-options="marginTop:0;" style="width:100%">
+      <div class="column row ">
+        <h1>Company Name</h1>
+        <p>HTML & CSS PATTERN LIBRARY</p>
+        <p class="small">Version 1.0</p>
+      </div>
+
+      <div class="title-bar align-center">
+        <ul class="menu" data-smooth-scroll data-offset="240">
+          {{#each pages}}
+          <li><a href="#{{ anchor }}">{{ title }}</a></li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="pl-content">
+    <div class="row column">
+    {{#each pages}}
+    <section class="pl-style-section" id="{{ anchor }}">
+      {{ body }}
+    </section>
+    {{/each}}
+  </div>
+</div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
