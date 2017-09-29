@@ -1,8 +1,8 @@
 # F6-boosted-pattern-library
 A new and improved pattern library to use in Foundation 6+ based projects.
 
-## Style Guide Editing  
-The boosted style guide has been edited to include the following:
+## Pattern Library Editing  
+The Boosted Pattern Library has been edited to include the following:
 
 - Client Intro banner with name and version
 - Improved Sticky Menu
@@ -42,7 +42,7 @@ Finally, run `npm start` to run Gulp. Your finished site will be created in a fo
 http://localhost:8000
 ```
 
-### Editing Style Guide
+### Editing Boosted Pattern Library
 
 All styles for the Boosted Pattern Library are located in 'src/assets/scss/styleguide/styles.scss'
 
